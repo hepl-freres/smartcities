@@ -21,7 +21,7 @@ La Led s'allume ou s'éteint après une pression sur le bouton. pour maintenir l
 # LedButtonWithInterrup : 
 
 le programme à la même fonction que LedButtonWithState mais sans les délais. Dans ce cas ci on utilise une interruption iqr
-qui se déclenche sur les fronts descendans, cet à dire quand on relache le bouton. 
+qui se déclenche sur les fronts descendans, cet à dire quand on relache le bouton.
 
 
 
