@@ -1,6 +1,6 @@
 # Blink.py : 
 
-Le programme blink.py permet de faire clignoter une led à une fréquence de 500ms. On peut utiliser effectuer une boucle en allumant (led.high()) puis en étaignant (led.high()) les leds la led avec un délai entre (utime.sleep_ms(500)). ou bien on peut utiliser la fonction toggle() qui change l'état sortie. la led utilisé est celle qui est sur le pico
+Le programme blink.py permet de faire clignoter une led à une fréquence de 500ms. On effectue une boucle en allumant (led.high()) puis en étaignant (led.high()) les leds la led avec un délai entre (utime.sleep_ms(500)). ou bien on peut utiliser la fonction toggle() qui change l'état sortie. la led utilisé est celle qui est sur le pico
 
 
 # ledWithButton.py:
@@ -14,9 +14,16 @@ La led s'allume s'il on un presse le bouton. On utilise une condition if, si la 
 Le code est similaire à Blink sauf qu'on utilise une led externe ( pin 20 ).
 
 
+# LedButtonWithState
+
+La Led s'allume ou s'éteint après une pression sur le bouton. pour maintenir l'etat en sortie, on utilise une variable ( val ) qui est initié à 0. s'il on presse une fois, on fait +1 dans val et la led s'alume car (led.value(val)). s'il on appuye une deuxieme fois, on remet val à 0 ce qui éteint la led. Dans ce code le déclenchement de la sortie led est temporisé.
+
 # LedButtonWithInterrup : 
 
-La led s'allume 
+le programme à la même fonction que LedButtonWithState mais sans les délais. Dans ce cas ci on utilise une interruption iqr
+qui se déclenche sur les fronts descendans, cet à dire quand on relache le bouton. 
+
+
 
 
 
