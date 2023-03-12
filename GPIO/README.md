@@ -30,6 +30,6 @@ qui se déclenche sur les fronts descendans, cet à dire quand on relache le bou
 
 
 
-
+NB: compte tenue de l'espace max que prend les videos je suis en train de les retravailler de m^me que les photos 
 
 
