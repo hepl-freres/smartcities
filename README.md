@@ -5,7 +5,7 @@ Le raspberry pico w est une carte qui dispose d'un microcontrôleur RP2040 à de
 
 # Environnement software 
 
-Le pico est compatible avec windows, Mac OS et linux. Pour le programmer on utilise le logiciel Thonny qui est utlisier pour la programmation en python ou en micro python. pour l'installation on le télécharge sur le site ( lien dans source ) puis on appuye sur le bouton bootsel du pico et on le branche sur le pc. Le raspberry apparait alors comme une clé usb et on va y mettre un fichier .uf2 qui correspond à son firmware. il ne reste plus qu'à sélectionner le bon language dans thonny. 
+Le pico est compatible avec windows, Mac OS et linux. Pour le programmer on utilise le logiciel Thonny qui est utlisier pour la programmation en python ou en micro python. pour l'installation on le télécharge sur le site ( lien dans source ) puis on appuye sur le bouton bootsel du pico et on le branche sur le pc. Le raspberry apparait alors comme une clé usb et on va y mettre un fichier .uf2 qui correspond à son firmware. il ne reste plus qu'à sélectionner le bon language dans Thonny. 
 
 
 
