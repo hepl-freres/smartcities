@@ -1,6 +1,7 @@
 # Blink.py : 
 
 Le programme blink.py permet de faire clignoter une led à une fréquence de 500ms. On effectue une boucle en allumant (led.high()) puis en étaignant (led.high()) les leds la led avec un délai entre (utime.sleep_ms(500)). ou bien on peut utiliser la fonction toggle() qui change l'état sortie. la led utilisé est celle qui est sur le pico
+![Blink](https://user-images.githubusercontent.com/125506518/226099917-de34544b-545c-487d-b7d8-b9f3ae00d720.gif)
 
 
 # ledWithButton.py:
