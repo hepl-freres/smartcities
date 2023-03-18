@@ -26,7 +26,8 @@ https://user-images.githubusercontent.com/125506518/226107004-b363c44e-c518-4ea3
 
 La led s’allume si le potentiomètre est positionné dans une zone où il renvoie une valeur supérieur à 20000 mais inférieur à 40000.
 
-![Uploading PotwithLed.gif…]()
+![PotwithLed](https://user-images.githubusercontent.com/125506518/226107636-beeef8ce-42fc-4787-9422-fa4f3d3e0698.gif)
+
 
 # SimpleBuzzer.py
 
