@@ -1,16 +1,16 @@
-#Afficheur lcd
+# Afficheur lcd
 
 Les ecrans LCD fonctionnent grace à une multitude de cristaux qui vont se mettre à pivoter lorsqu'ils sont soumis à un champ électrique. En pivotant ils vont laisser passer plus ou moins de la lumière polarisé provenant d'un rétroéclairage. Le lcd utilisé est contrôlé via un bus i2c
 
 
-#LCDdisplay
+# LCDdisplay
 
 Affiche un simple "Hello world"
 
 ![IMG_20230319_110524912](https://user-images.githubusercontent.com/125506518/226207083-462376cf-634b-4ab2-af37-8760bd1f3d4f.jpg)
 
 
-#LCDdisplayWithPot
+# LCDdisplayWithPot
 
 Affiche la position angulaire d'un potentiometre. la position va jusqu'à 300°
 
@@ -22,7 +22,7 @@ https://www.waveshare.com/datasheet/LCD_en_PDF/LCD1602.pdf?fbclid=IwAR07Lddnesdv
 
 
 
-#lcd1602
+# lcd1602
 
 Ce code est la bibliotheque nécessaire à l'utilisation du LCD.
 
