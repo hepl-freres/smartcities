@@ -1,6 +1,6 @@
 #Afficheur lcd
 
-Les ecrans LCD sont fonctionnent grace à une multitude de cristaux qui vont se mettre à pivoter lorsqu'ils sont soumis à un champ électrique. En pivotant ils vont laisser passer plus ou moins de la lumière polarisé provenant d'un rétroéclairage. Le lcd utilisé est contrôlé via un bus i2c
+Les ecrans LCD fonctionnent grace à une multitude de cristaux qui vont se mettre à pivoter lorsqu'ils sont soumis à un champ électrique. En pivotant ils vont laisser passer plus ou moins de la lumière polarisé provenant d'un rétroéclairage. Le lcd utilisé est contrôlé via un bus i2c
 
 
 #LCDdisplay
