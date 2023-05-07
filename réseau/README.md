@@ -7,10 +7,15 @@ Pour récupérer l'heure on créer un socket UDP/IP qui est mis sur écoute.
 fonctions utilisés :
 
 socket.getaddrinfo(host,port) : retourne des données sur l'hôte 
+
 socket.sendto(NTP_QUERY,addr) : envoie un message de NTP_QUERY bytes à l'adresse ADR permettant d'initialiser la communication
+
 socket.socket(socket.AF_INET, socket.SOCK_DGRAM) : création d'un socket (protocole UDP/IP)
+
 socket.recv(48) : réception un message qui fait 48 octets
+
 s.close() : ferme la connexion 
+
 
 
 ![IMG_20230507_175011494](https://user-images.githubusercontent.com/125506518/236701722-9a30e8fa-9ca9-4d1b-a11c-99e687bb0ecd.jpg)
