@@ -37,7 +37,7 @@ LAN.active() : activation/desactivation de la connexion internet
 
 urequests.get() : effectue des requêtes à URL pour récuperer des données
  
-Pour l'API on lui fournir les coordonnées ( longitude/latitude ), une clée et le type d'unité à l'ocurence le métrique.
+Pour l'API on lui fournir les coordonnées ( longitude/latitude ), une clé et le type d'unité à l'ocurence le métrique.
 
 ![CaptureAPIopenWeather](https://user-images.githubusercontent.com/125506518/236701757-d3ea8d95-0ef6-48ba-b5c0-bc48fd6ab46c.JPG)
 
