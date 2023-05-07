@@ -26,10 +26,15 @@ s.close() : ferme la connexion
 Pour pouvoir connecter le pico utilise une série de commande, il a besoin aussi de connaître le nom du réseau ( ssid ) et le mot de passe.
 
 WLAN.connect() : fonction de connexion au wifi
+
 LAN.ifconfig(): configuration du réseau 
+
 WLAN.disconnect() : fonction de connexion au wifi
+
 WLAN.isconnected() : vérifie si la connexion est active
+
 LAN.active() : activation/desactivation de la connexion internet
+
 urequests.get() : effectue des requêtes à URL pour récuperer des données
  
 Pour l'API on lui fournir les coordonnées ( longitude/latitude ), une clée et le type d'unité à l'ocurence le métrique.
