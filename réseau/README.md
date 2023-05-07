@@ -35,5 +35,4 @@ Pour l'API on lui fournir les coordonnées ( longitude/latitude ), une clée et 
 
 
 
-
-NB : j'ai mit des ****** pour ne pas mettre mon vrai mot de pas wifi
+NB : j'ai mit des ****** pour ne pas mettre mon vrai mot de pas wifi.
